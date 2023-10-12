@@ -2,7 +2,7 @@
 This Project is an Downloader for Embeds on many Sites like Facebook, Youtube and Other sites.
 
 > [!WARNING]
-> This Code is for educational Purposes and editorial purposes only.
+> This Code is for educational Purposes and editorial purposes only. USE AT OWN RISK
 
 
 | Version  | Released? |
