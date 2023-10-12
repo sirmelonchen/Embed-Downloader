@@ -8,4 +8,4 @@ This Project is an Downloader for Embeds on many Sites like Facebook, Youtube an
 | Version  | Released? |
 | ------------- | ------------- |
 | V0.1  | :x:  |
-| V1.0  | [x]  |
+| V1.0  | - [x]  |
