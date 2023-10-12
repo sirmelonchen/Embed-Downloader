@@ -7,5 +7,5 @@ This Project is an Downloader for Embeds on many Sites like Facebook, Youtube an
 
 | Version  | Released? |
 | ------------- | ------------- |
-| V0.1  | [-]  |
-| V1.0  | [-]  |
+| V0.1  | :x:  |
+| V1.0  | [x]  |
