@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+<<<<<<< Updated upstream
     id 'application'
     id 'org.javamodularity.moduleplugin' version '1.8.12'
     id 'org.openjfx.javafxplugin' version '0.0.13'
@@ -8,11 +9,18 @@ plugins {
 
 group 'de.sirmelonchen'
 version '1.0-SNAPSHOT'
+=======
+}
+
+group = 'org.example'
+version = '1.0-SNAPSHOT'
+>>>>>>> Stashed changes
 
 repositories {
     mavenCentral()
 }
 
+<<<<<<< Updated upstream
 ext {
     junitVersion = '5.9.2'
 }
@@ -50,10 +58,16 @@ dependencies {
 
     testImplementation("org.junit.jupiter:junit-jupiter-api:${junitVersion}")
     testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine:${junitVersion}")
+=======
+dependencies {
+    testImplementation platform('org.junit:junit-bom:5.9.1')
+    testImplementation 'org.junit.jupiter:junit-jupiter'
+>>>>>>> Stashed changes
 }
 
 test {
     useJUnitPlatform()
+<<<<<<< Updated upstream
 }
 
 jlink {
@@ -66,4 +80,6 @@ jlink {
 
 jlinkZip {
     group = 'distribution'
+=======
+>>>>>>> Stashed changes
 }
